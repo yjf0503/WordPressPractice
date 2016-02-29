@@ -44,12 +44,22 @@
 
 <body>
 
-
 <div id="header">
-<h1></h1><a href="<?php blog_info('url');?>"><?php blog_info('name'); ?></a>
+
+<h1><a href="<?php blog_info('url');?>"><?php blog_info('name'); ?></a></h1>
 
 <?php blog_info('description'); ?>
- </div>
+</div>
+
+<div id="container">
+ <?php if(have_posts()): ?><?php while(have_posts()): the_post(); ?>
+
+  <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+
+ <?php endwhile; ?>
+
+ <?php endif; ?>
+</div>
 
 </body>
 
