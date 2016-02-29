@@ -44,6 +44,7 @@
 
 <body>
 
+
 <div id="header">
 <h1></h1><a href="<?php blog_info('url');?>"><?php blog_info('name'); ?></a>
 
