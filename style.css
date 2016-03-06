@@ -2,6 +2,8 @@
 
 Theme Name: WordPressPractice
 
+Theme Url: https://github.com/yjf0503/WordPressPractice
+
 Description: This is my theme for a WordPress practice.
 
 Version: 1.0
@@ -11,3 +13,19 @@ Author: Jiefu Yang
 Author URI: https://github.com/yjf0503
 
 */
+body{
+    font-family: Arial,Helvetica,Georgia,SansSerif;
+    margin:0;
+    font-size: 12px;
+    text-align: left;
+    vertical-align: top;
+    background: #ffffff;
+    color: #000000;
+}
+a:link, a:visited{
+    text-decoration: underline;
+    color: #336699;
+}
+a:hover{
+    text-decoration: none;
+}
