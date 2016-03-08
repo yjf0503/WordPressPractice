@@ -79,7 +79,6 @@ p.postmetadata{
     width: 240px;
     background: #eeeeee;
     margin: 0 0 0 10px;
-    <strong>display: inline;</strong>
 }
 .sidebar ul{
     list-style-type: none;
