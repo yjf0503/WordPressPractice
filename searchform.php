@@ -1,9 +1,3 @@
-/**
- * Created by PhpStorm.
- * User: jiefuyang
- * Date: 3/5/16
- * Time: 7:35 PM
- */
 <form method="get" id="searchform" action="<?php bloginfo('home'); ?>/">
 
 <div>

@@ -53,9 +53,11 @@ p{
 #container{
     float: left;
     width:500px;
+    margin: 10px 0;
 }
 .post{
     padding: 10px 0 10px 0;
+    border-top: 1px solid #ccc;
 }
 .post h2{
     font-family: Georgia, Sans-serif;
@@ -65,7 +67,6 @@ p{
     line-height: 18px;
 }
 p.postmetadata{
-    border-top: 1px solid #ccc;
     margin: 10px 0 0 0;
 }
 .navigation{
@@ -75,10 +76,10 @@ p.postmetadata{
     line-height: 18px;
 }
 .sidebar{
-    float: left;
+    float: right;
     width: 240px;
     background: #eeeeee;
-    margin: 0 0 0 10px;
+    margin: -50px 0 0 10px;
 }
 .sidebar ul{
     list-style-type: none;

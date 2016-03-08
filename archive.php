@@ -1,9 +1,3 @@
-/**
- * Created by PhpStorm.
- * User: jiefuyang
- * Date: 3/8/16
- * Time: 5:01 PM
- */
 <?php get_header(); ?>
 
 <div id="container">

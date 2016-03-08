@@ -1,10 +1,4 @@
-/**
- * Created by PhpStorm.
- * User: jiefuyang
- * Date: 3/8/16
- * Time: 4:53 PM
- */
-<div class="'sidebar">
+<div class="sidebar">
     <ul>
         <?php if(function_exists('dynamic_sidebar')&&dynamic_sidebar() ) : else : ?>
 
@@ -42,6 +36,6 @@
             <?php wp_meta(); ?>
         </ul>
     </li>
-<?php endif; ?>
-</ul>
+		<?php endif; ?>
+	</ul>
 </div>
